@@ -22,7 +22,7 @@ public class ChromeBrowser implements Browser {
 		driver = new ChromeDriver();
 		
 		
-		driver.manage().deleteAllCookies();
+		//driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(Constants.IMPLICITLY_WAIT));
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(Constants.IMPLICITLY_WAIT));
 		
